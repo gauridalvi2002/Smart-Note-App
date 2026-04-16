@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Smart Notes App</h2>
+
+  <input type="text" id="title" placeholder="Enter Title">
+  <textarea id="desc" placeholder="Enter Description"></textarea>
+  <button onclick="addNote()">Add Note</button>
+
+  <input type="text" id="search" placeholder="Search Notes..." onkeyup="searchNotes()">
+
+  <div id="notes"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
